@@ -1,0 +1,11 @@
+~ Project Title : Computer vision based adaptive sentiment analysis through intelligent Chatbot
+
+~ Why we choose the problem statement?
+-> With increasing rate at which data is created by internet users on various platforms, it becomes necessary to analyze and make use of the data by the Defense and other Government Organizations as well as Private Organizations and know the sentiment of the people.
+
+~ What is Sentiment Analysis?
+-> Sentiment analysis is the field dealing and analyzing people's opinions sentiments and attitudes, behavioral responses to certain events or incidents based on the written language available.
+
+~Technology used - 
+-> We used OpenCV for analysing facial expressions. OpenCV is a free and open-source library that includes hundreds of computer vision
+algorithms. The library is cross-platform, meaning it can be used on a variety of operating systems, including Windows, Linux, macOS, Android, and iOS. OpenCV is used in a variety of applications, such as: Image processing, Object detection, Face recognition, Motion tracking, Video stabilization, Augmented reality.
