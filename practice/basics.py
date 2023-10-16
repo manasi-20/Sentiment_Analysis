@@ -12,8 +12,8 @@ blur=cv.GaussianBlur(img,(7,7),cv.BORDER_DEFAULT) #2nd param-> intensity of img 
 cv.imshow("Blur",blur)
 cv.waitKey(1)
 
-# edge cascade 
-canny = cv.Canny(img,125,175)    # gives back mig with white edges
+# edge cascade / edge detection
+canny = cv.Canny(img,125,175)    # gives back img with white edges
 cv.imshow('canny',canny)
 cv.waitKey(1)
 
