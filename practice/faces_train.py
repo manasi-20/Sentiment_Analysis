@@ -24,6 +24,8 @@ def create_train():
             img_array=cv.imread(img_path)
             gray=cv.cvtColor(img_array,cv.COLOR_BGR2GRAY)
 
+            # scalefactor ^ no. of pixels ^
+            # minneighbours ^ detection low
             faces_rect=haar_cascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=4)
 
             for (x,y,w,h) in faces_rect:

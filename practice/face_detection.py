@@ -16,6 +16,6 @@ print(f'No. of faces found in img is {len(faces_rect)}')
 for(x,y,w,h) in faces_rect:
     cv.rectangle(img,(x,y),(x+w,y+h),(0,255,0),thickness=2)
 cv.imshow('Detected face',img)
-print(faces_rect)
+#print(faces_rect)
 
 cv.waitKey(0)
