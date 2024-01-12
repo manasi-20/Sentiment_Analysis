@@ -1,7 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-cap=cv.VideoCapture(0)
+# for default camera index=0
+cap=cv.VideoCapture(0)   
 
 cv.namedWindow("Image")
 

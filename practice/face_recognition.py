@@ -11,7 +11,7 @@ face_recognizer=cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('face_trained.yml')
 
 
-img=cv.imread(r'D:\My Data\projects\major\Sentiment_Analysis\practice\validation\sundar.jpg')
+img=cv.imread(r'D:\My Data\projects\major\Sentiment_Analysis\practice\validation\chopra.jpg')
 
 gray=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
 
